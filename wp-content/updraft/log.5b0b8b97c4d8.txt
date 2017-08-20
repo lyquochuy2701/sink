@@ -1,0 +1,247 @@
+0000.000 (0) Opened log file at time: Tue, 15 Aug 2017 03:18:03 +0000 on http://risingfootballer.com/sink
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.5 WP: 4.8.1 PHP: 5.6.31 (cgi-fcgi, Linux server.promnestria.net 2.6.32-696.6.3.el6.x86_64 #1 SMP Wed Jul 12 14:17:22 UTC 2017 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 38.5M | 38.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.159 (0) Free space on disk containing Updraft's temporary directory: 11380.2 MB
+0000.162 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.163 (0) Semaphore (fd, wp_options) being initialised
+0000.165 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.166 (0) Set semaphore last lock (fd) time to 2017-08-15 03:18:03
+0000.167 (0) Semaphore lock (fd) complete
+0000.170 (0) Backup run: resumption=0, nonce=5b0b8b97c4d8, begun at=1502767083 (0s ago), job type=backup
+0000.171 (0) Scheduling a resumption (1) after 300 seconds (1502767383) in case this run gets aborted
+0000.181 (0) Checking if we have a zip executable available
+0000.182 (0) Testing: /usr/bin/zip
+0000.188 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.190 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.190 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.191 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.191 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.197 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.198 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.207 (0) Working binary zip found: /usr/bin/zip
+0000.208 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.209 (0) Creation of backups of directories: beginning
+0000.211 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.578 (0) Total entities for the zip file: 526 directories, 3085 files (0 skipped as non-modified), 43.2 MB
+0000.582 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.586 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.589 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.592 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.597 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.598 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 3085 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.446 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: size is now: 3.80 MB
+0001.451 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 600 files added (on-disk size: 3872.1 KB)
+0001.454 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 700 files added (on-disk size: 3872.1 KB)
+0001.457 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 800 files added (on-disk size: 3872.1 KB)
+0001.460 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 900 files added (on-disk size: 3872.1 KB)
+0001.463 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 1000 files added (on-disk size: 3872.1 KB)
+0001.464 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.1 MB, 3085 files batched, 501 (1002) added so far); re-opening (prior size: 3872.1 KB)
+0002.380 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: size is now: 7.90 MB
+0002.391 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 1100 files added (on-disk size: 8140.6 KB)
+0002.395 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 1200 files added (on-disk size: 8140.6 KB)
+0002.398 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 1300 files added (on-disk size: 8140.6 KB)
+0002.401 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 1400 files added (on-disk size: 8140.6 KB)
+0002.405 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 1500 files added (on-disk size: 8140.6 KB)
+0002.405 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 3085 files batched, 501 (1503) added so far); re-opening (prior size: 8140.6 KB)
+0002.568 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 1600 files added (on-disk size: 8883.1 KB)
+0002.573 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 1700 files added (on-disk size: 8883.1 KB)
+0002.577 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 1800 files added (on-disk size: 8883.1 KB)
+0002.580 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 1900 files added (on-disk size: 8883.1 KB)
+0002.583 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 2000 files added (on-disk size: 8883.1 KB)
+0002.584 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 3085 files batched, 501 (2004) added so far); re-opening (prior size: 8883.1 KB)
+0002.952 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: size is now: 10.40 MB
+0002.959 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 2100 files added (on-disk size: 10685.3 KB)
+0002.964 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 2200 files added (on-disk size: 10685.3 KB)
+0002.969 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 2300 files added (on-disk size: 10685.3 KB)
+0002.974 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 2400 files added (on-disk size: 10685.3 KB)
+0002.979 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 2500 files added (on-disk size: 10685.3 KB)
+0002.980 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 MB, 3085 files batched, 501 (2505) added so far); re-opening (prior size: 10685.3 KB)
+0003.377 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 2600 files added (on-disk size: 12469.9 KB)
+0003.380 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 2700 files added (on-disk size: 12469.9 KB)
+0003.384 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 2800 files added (on-disk size: 12469.9 KB)
+0003.387 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 2900 files added (on-disk size: 12469.9 KB)
+0003.390 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip.tmp: 3000 files added (on-disk size: 12469.9 KB)
+0003.391 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 3085 files batched, 501 (3006) added so far); re-opening (prior size: 12469.9 KB)
+0004.305 (0) Created plugins zip (0) - 14970.2 KB in 4 s (3783.5 KB/s) (sha1: 5e6fbe15aa430d5aaa7e5385ccf76098ee122d42, sha256: 02ae05de412991144c8c8d643e2bb02e5e6100b97fff14e6b26880cd7af16f48)
+0004.308 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.480 (0) Total entities for the zip file: 69 directories, 329 files (0 skipped as non-modified), 5.3 MB
+0004.484 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.487 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.490 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.844 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-themes.zip.tmp: size is now: 3.30 MB
+0004.901 (0) Created themes zip (0) - 3352.6 KB in 0.4 s (7494 KB/s) (sha1: b3efb6934bc978793dafe008051e2b7042bf7116, sha256: 949c7e5fb818ccdf67361ea9cedec1e3f058ae4a6cc85dfacc1362e7373cecc0)
+0004.903 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.904 (0) Looking for candidates to back up in: /home/risingfootballer/public_html/sink/wp-content/uploads
+0004.904 (0) finding files: football-pool: adding to list (1)
+0004.905 (0) finding files: siteorigin-widgets: adding to list (2)
+0004.906 (0) finding files: 2017: adding to list (3)
+0004.906 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.031 (0) Total entities for the zip file: 9 directories, 121 files (0 skipped as non-modified), 5.3 MB
+0005.034 (0) Zip: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.139 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-uploads.zip.tmp: size is now: 5.40 MB
+0005.220 (0) Created uploads zip (0) - 5505.1 KB in 0.2 s (28099.6 KB/s) (sha1: 7f73f91584244f94b28c4d9c5cb36cf6698929f8, sha256: 078b5bc36a7ad8f5f96330ee7f5975f27cc33b752b2997331c71eb5c15caee0a)
+0005.222 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.223 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.224 (0) Looking for candidates to back up in: /home/risingfootballer/public_html/sink/wp-content
+0005.224 (0) finding files: themes: skipping: this is the themes directory
+0005.225 (0) finding files: updraft: skipping: this is the updraft directory
+0005.225 (0) finding files: uploads: skipping: this is the uploads directory
+0005.226 (0) finding files: plugins: skipping: this is the plugins directory
+0005.226 (0) finding files: mu-plugins: adding to list (1)
+0005.227 (0) finding files: upgrade: skipping: excluded by options
+0005.227 (0) finding files: index.php: adding to list (2)
+0005.352 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0005.361 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-others.zip.tmp: size is now: 0.00 MB
+0005.365 (0) Created others zip (0) - 6.1 KB in 0 s (393.1 KB/s) (sha1: add0c07b930eb85dda471362151dbd2e7a9afba7, sha256: 0edd3d2ba4d59cc526194f4c94fe4ad351bb2404b82aaf363516b5e40f499fa4)
+0005.369 (0) Saving backup status to database (elements: 8)
+0005.371 (0) Beginning creation of database dump (WordPress DB)
+0005.373 (0) Testing: /usr/bin/mysqldump
+0005.448 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1201 bytes total)
+0005.453 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0005.480 (0) Table wp_options: Total expected rows (approximate): 639
+0005.558 (0) Table wp_options: Total rows added: 635 in 0.08 seconds
+0005.560 (0) Table wp_options: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_options.table.gz - 252.2 KB)
+0005.563 (0) Table wp_users: Total expected rows (approximate): 2
+0005.567 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0005.568 (0) Table wp_users: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_users.table.gz - 0.6 KB)
+0005.571 (0) Table wp_usermeta: Total expected rows (approximate): 57
+0005.576 (0) Table wp_usermeta: Total rows added: 57 in 0.00 seconds
+0005.576 (0) Table wp_usermeta: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_usermeta.table.gz - 1.8 KB)
+0005.583 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0005.587 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0005.588 (0) Table wp_commentmeta: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0005.591 (0) Table wp_comments: Total expected rows (approximate): 1
+0005.594 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0005.595 (0) Table wp_comments: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_comments.table.gz - 0.7 KB)
+0005.600 (0) Table wp_links: Total expected rows (approximate): 0
+0005.603 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0005.604 (0) Table wp_links: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_links.table.gz - 0.4 KB)
+0005.607 (0) Table wp_postmeta: Total expected rows (approximate): 1016
+0005.683 (0) Table wp_postmeta: Total rows added: 1016 in 0.08 seconds
+0005.684 (0) Table wp_postmeta: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_postmeta.table.gz - 91 KB)
+0005.687 (0) Table wp_posts: Total expected rows (approximate): 398
+0005.738 (0) Table wp_posts: Total rows added: 398 in 0.05 seconds
+0005.740 (0) Table wp_posts: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_posts.table.gz - 49.1 KB)
+0005.743 (0) Table wp_term_relationships: Total expected rows (approximate): 15
+0005.747 (0) Table wp_term_relationships: Total rows added: 15 in 0.00 seconds
+0005.748 (0) Table wp_term_relationships: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0005.751 (0) Table wp_term_taxonomy: Total expected rows (approximate): 8
+0005.754 (0) Table wp_term_taxonomy: Total rows added: 8 in 0.00 seconds
+0005.755 (0) Table wp_term_taxonomy: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0005.758 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0005.760 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0005.761 (0) Table wp_termmeta: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_termmeta.table.gz - 0.4 KB)
+0005.764 (0) Table wp_terms: Total expected rows (approximate): 8
+0005.767 (0) Table wp_terms: Total rows added: 8 in 0.00 seconds
+0005.768 (0) Table wp_terms: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_terms.table.gz - 0.5 KB)
+0005.769 (0) Skipping table (lacks our prefix (wp_)): pool_wp_bonusquestions
+0005.769 (0) Skipping table (lacks our prefix (wp_)): pool_wp_bonusquestions_type
+0005.770 (0) Skipping table (lacks our prefix (wp_)): pool_wp_bonusquestions_useranswers
+0005.770 (0) Skipping table (lacks our prefix (wp_)): pool_wp_groups
+0005.771 (0) Skipping table (lacks our prefix (wp_)): pool_wp_league_users
+0005.772 (0) Skipping table (lacks our prefix (wp_)): pool_wp_leagues
+0005.772 (0) Skipping table (lacks our prefix (wp_)): pool_wp_matches
+0005.773 (0) Skipping table (lacks our prefix (wp_)): pool_wp_matchtypes
+0005.773 (0) Skipping table (lacks our prefix (wp_)): pool_wp_predictions
+0005.774 (0) Skipping table (lacks our prefix (wp_)): pool_wp_rankings
+0005.774 (0) Skipping table (lacks our prefix (wp_)): pool_wp_rankings_bonusquestions
+0005.775 (0) Skipping table (lacks our prefix (wp_)): pool_wp_rankings_matches
+0005.775 (0) Skipping table (lacks our prefix (wp_)): pool_wp_scorehistory_s1_t1
+0005.776 (0) Skipping table (lacks our prefix (wp_)): pool_wp_scorehistory_s1_t2
+0005.776 (0) Skipping table (lacks our prefix (wp_)): pool_wp_seasons
+0005.777 (0) Skipping table (lacks our prefix (wp_)): pool_wp_shoutbox
+0005.777 (0) Skipping table (lacks our prefix (wp_)): pool_wp_stadiums
+0005.778 (0) Skipping table (lacks our prefix (wp_)): pool_wp_teams
+0005.780 (0) Table wp_participants_database: Total expected rows (approximate): 2
+0005.785 (0) Table wp_participants_database: Total rows added: 2 in 0.00 seconds
+0005.785 (0) Table wp_participants_database: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_participants_database.table.gz - 0.8 KB)
+0005.788 (0) Table wp_participants_database_fields: Total expected rows (approximate): 24
+0005.793 (0) Table wp_participants_database_fields: Total rows added: 24 in 0.00 seconds
+0005.793 (0) Table wp_participants_database_fields: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_participants_database_fields.table.gz - 1.3 KB)
+0005.796 (0) Table wp_participants_database_groups: Total expected rows (approximate): 3
+0005.799 (0) Table wp_participants_database_groups: Total rows added: 3 in 0.00 seconds
+0005.800 (0) Table wp_participants_database_groups: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_participants_database_groups.table.gz - 0.5 KB)
+0005.803 (0) Table wp_pmpro_discount_codes: Total expected rows (approximate): 0
+0005.806 (0) Table wp_pmpro_discount_codes: Total rows added: 0 in 0.00 seconds
+0005.806 (0) Table wp_pmpro_discount_codes: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_discount_codes.table.gz - 0.3 KB)
+0005.810 (0) Table wp_pmpro_discount_codes_levels: Total expected rows (approximate): 0
+0005.813 (0) Table wp_pmpro_discount_codes_levels: Total rows added: 0 in 0.00 seconds
+0005.813 (0) Table wp_pmpro_discount_codes_levels: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_discount_codes_levels.table.gz - 0.5 KB)
+0005.817 (0) Table wp_pmpro_discount_codes_uses: Total expected rows (approximate): 0
+0005.820 (0) Table wp_pmpro_discount_codes_uses: Total rows added: 0 in 0.00 seconds
+0005.821 (0) Table wp_pmpro_discount_codes_uses: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_discount_codes_uses.table.gz - 0.3 KB)
+0005.825 (0) Table wp_pmpro_membership_levelmeta: Total expected rows (approximate): 0
+0005.828 (0) Table wp_pmpro_membership_levelmeta: Total rows added: 0 in 0.00 seconds
+0005.829 (0) Table wp_pmpro_membership_levelmeta: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_membership_levelmeta.table.gz - 0.3 KB)
+0005.831 (0) Table wp_pmpro_membership_levels: Total expected rows (approximate): 2
+0005.835 (0) Table wp_pmpro_membership_levels: Total rows added: 2 in 0.00 seconds
+0005.836 (0) Table wp_pmpro_membership_levels: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_membership_levels.table.gz - 0.6 KB)
+0005.840 (0) Table wp_pmpro_membership_orders: Total expected rows (approximate): 1
+0005.844 (0) Table wp_pmpro_membership_orders: Total rows added: 1 in 0.00 seconds
+0005.845 (0) Table wp_pmpro_membership_orders: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_membership_orders.table.gz - 0.9 KB)
+0005.848 (0) Table wp_pmpro_memberships_categories: Total expected rows (approximate): 4
+0005.852 (0) Table wp_pmpro_memberships_categories: Total rows added: 4 in 0.00 seconds
+0005.853 (0) Table wp_pmpro_memberships_categories: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_memberships_categories.table.gz - 0.4 KB)
+0005.856 (0) Table wp_pmpro_memberships_pages: Total expected rows (approximate): 1
+0005.859 (0) Table wp_pmpro_memberships_pages: Total rows added: 1 in 0.00 seconds
+0005.860 (0) Table wp_pmpro_memberships_pages: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_memberships_pages.table.gz - 0.4 KB)
+0005.863 (0) Table wp_pmpro_memberships_users: Total expected rows (approximate): 1
+0005.866 (0) Table wp_pmpro_memberships_users: Total rows added: 1 in 0.00 seconds
+0005.867 (0) Table wp_pmpro_memberships_users: finishing file (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_memberships_users.table.gz - 0.6 KB)
+0005.870 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_options.table.gz (1/42): adding to final database dump
+0005.930 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_users.table.gz (2/42): adding to final database dump
+0005.931 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_usermeta.table.gz (3/42): adding to final database dump
+0005.933 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_commentmeta.table.gz (4/42): adding to final database dump
+0005.934 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_comments.table.gz (5/42): adding to final database dump
+0005.935 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_links.table.gz (6/42): adding to final database dump
+0005.935 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_postmeta.table.gz (7/42): adding to final database dump
+0005.985 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_posts.table.gz (8/42): adding to final database dump
+0006.006 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_term_relationships.table.gz (9/42): adding to final database dump
+0006.008 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_term_taxonomy.table.gz (10/42): adding to final database dump
+0006.009 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_termmeta.table.gz (11/42): adding to final database dump
+0006.010 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_terms.table.gz (12/42): adding to final database dump
+0006.011 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_participants_database.table.gz (13/42): adding to final database dump
+0006.012 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_participants_database_fields.table.gz (14/42): adding to final database dump
+0006.013 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_participants_database_groups.table.gz (15/42): adding to final database dump
+0006.014 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_discount_codes.table.gz (16/42): adding to final database dump
+0006.014 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_discount_codes_levels.table.gz (17/42): adding to final database dump
+0006.015 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_discount_codes_uses.table.gz (18/42): adding to final database dump
+0006.016 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_membership_levelmeta.table.gz (19/42): adding to final database dump
+0006.017 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_membership_levels.table.gz (20/42): adding to final database dump
+0006.017 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_membership_orders.table.gz (21/42): adding to final database dump
+0006.018 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_memberships_categories.table.gz (22/42): adding to final database dump
+0006.019 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_memberships_pages.table.gz (23/42): adding to final database dump
+0006.020 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db-table-wp_pmpro_memberships_users.table.gz (24/42): adding to final database dump
+0006.021 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db.gz: finished writing out complete database file (384 KB)
+0006.031 (0) Total database tables backed up: 24 (backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db.gz, size: 408583, sha256)
+0006.035 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.036 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.036 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.037 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.037 (0) backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.038 (0) Saving backup history. Total backup size: 23.7 MB
+0006.039 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.042 (0) Cloud backup selection (1/1): none (last)
+0006.042 (0) No remote despatch: user chose no remote backup service
+0006.044 (0) Recording as successfully uploaded: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-plugins.zip (caabbe53219ddddc0e8fd9624832d8ba)
+0006.048 (0) Recording as successfully uploaded: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-themes.zip (7b17380494c78988440ab63dfedd891c)
+0006.051 (0) Recording as successfully uploaded: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-uploads.zip (e3c567b1acc29b4ef8e525f95d978301)
+0006.054 (0) Recording as successfully uploaded: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-others.zip (2b31f1291b3e36e18e32fe16f1207c18)
+0006.057 (0) Recording as successfully uploaded: backup_2017-08-15-0318_RisingFootballer_5b0b8b97c4d8-db.gz (80ccc692b678d275e22208797476f1ea)
+0006.062 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0006.062 (0) Number of backup sets in history: 1; groups (db): 1
+0006.063 (0) Examining (for databases) backup set with group_id=0, nonce=5b0b8b97c4d8, datestamp=1502767083 (Aug 15 2017 03:18:03)
+0006.063 (0) This backup set is the backup set just made, so will not be deleted.
+0006.064 (0) Number of backup sets in history: 1; groups (files): 1
+0006.064 (0) Examining (for files) backup set with nonce=5b0b8b97c4d8, datestamp=1502767083 (Aug 15 2017 03:18:03)
+0006.065 (0) This backup set is the backup set just made, so will not be deleted.
+0006.066 (0) This backup set is the backup set just made, so will not be deleted.
+0006.066 (0) This backup set is the backup set just made, so will not be deleted.
+0006.066 (0) This backup set is the backup set just made, so will not be deleted.
+0006.066 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.066 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0006.068 (0) Resume backup (5b0b8b97c4d8, 0): finish run
+0006.070 (0) Decremented the semaphore (fd) by 1
+0006.070 (0) Semaphore (fd) unlocked
+0006.071 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0006.074 (0) No email will/can be sent - the user has not configured an email address.
+0006.074 (0) The backup apparently succeeded and is now complete
